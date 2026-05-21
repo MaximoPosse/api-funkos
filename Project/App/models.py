@@ -13,7 +13,7 @@ class Productos(models.Model):
     Nombre = models.CharField(max_length=30)
     Precio = models.FloatField()
     Stock = models.IntegerField()
-    Descripcion = models.TextField(max_length=200)
+    Descripcion = models.TextField(max_length=200) 
 
     Imagen = models.ImageField(
         upload_to='productos/',
