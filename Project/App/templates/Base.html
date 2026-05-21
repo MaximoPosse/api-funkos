@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funko Pop Anime Store</title>
+    <meta name="description" content="Tienda de Funko Pop de anime. Registra productos mediante la API." />
+</head>
+
+<body>
+    <main>
+        <h1>Tienda Funko Pop de Anime</h1>
+        <p>Esta página es una tienda de Funko Pop de anime. Las entradas se registran mediante la API.</p>
+
+        <h2>API disponible</h2>
+        <ul>
+            <li><strong>GET</strong> <code>/api/funkos/</code> — lista funkos</li>
+            <li><strong>POST</strong> <code>/api/funkos/</code> — crea un funko</li>
+        </ul>
+
+        <h2>Campos de la tabla FunkoPop</h2>
+        <ol>
+            <li>Nombre</li>
+            <li>SerieAnime</li>
+            <li>Personaje</li>
+            <li>Precio</li>
+            <li>Stock</li>
+        </ol>
+
+        <h2>Ejemplo de POST</h2>
+        <pre>{
+  "Nombre": "Goku Super Saiyan",
+  "SerieAnime": "Dragon Ball",
+  "Personaje": "Goku",
+  "Precio": "34.99",
+  "Stock": 12
+}</pre>
+    </main>
+</body>
+
+</html>
